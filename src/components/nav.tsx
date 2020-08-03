@@ -5,7 +5,9 @@ const NavBar = styled.nav`
     display:grid;
     grid-template-columns: repeat(3, 1fr);
 `
-const HomeItem = styled.a`
+const HomeItem = styled.button`
+    color:white;
+    border:none;
     grid-column: 1;
     font-size: 30px;
     background-color:#51988b;
@@ -17,7 +19,9 @@ const HomeItem = styled.a`
         padding-bottom: 20px;
     }
 `
-const ExpItem = styled.a`
+const ExpItem = styled.button`
+    color:white;
+    border:none;
     grid-column: 2;
     font-size: 30px;
     background-color:#317c6a;
@@ -29,7 +33,9 @@ const ExpItem = styled.a`
         padding-bottom: 20px;
     }
 `
-const SkillItem = styled.a`
+const SkillItem = styled.button`
+    color:white;
+    border:none;
     grid-column: 3;
     font-size: 30px;
     background-color:#145a4c;
