@@ -1,11 +1,11 @@
 @font-face {
     font-family: "gotham-med";
-    src: url("../../public/static/fonts/gotham-med.ttf") format("truetype");
+    src: url("../../../public/static/fonts/gotham-med.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "gotham-ultra";
-    src: url("../../public/static/fonts/gotham-ultra.otf") format("opentype")
+    src: url("../../../public/static/fonts/gotham-ultra.otf") format("opentype")
 }
 
 body{

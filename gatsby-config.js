@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Save Charles`,
+    siteUrl: `https://www.nguyencharles.com`,
+    description: `typing words that become things`,
+  },
   plugins: [],
 }
